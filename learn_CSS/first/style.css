@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url(https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&w=1300);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginPage{
+    width: 50%;
+    height: 70%;
+    background-color: #8686852f;
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.even{
+    display: flex;
+    gap: ;
+}
+h1{
+    font-size: 60px;
+}
+input[type="email"],input[type="password"]{
+    width: 50%;
+    height: 40px;
+
+}
