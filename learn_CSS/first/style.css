@@ -24,21 +24,58 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.Input{
-    display: flex;
-    flex-direction: column;
     gap: 10px;
-}
-.even{
-    display: flex;
-    gap: ;
+   
 }
 h1{
-    font-size: 60px;
+    font-size: 40px;
+}
+.Input{
+    height: 20%;
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:12px
 }
 input[type="email"],input[type="password"]{
-    width: 50%;
-    height: 40px;
+    height: 80%;
+    width: 70%;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.even{
+    height: 20%;
+    width:49%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label{
+    font-weight: 20px;
+    font-size: medium;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover,label:hover{
+    cursor: pointer;
+    color: white;
+    
+}
+button{
+    height: 10%;
+    width: 13%;
+    border-radius: 10px;
+    background-color: rgba(81, 175, 178, 0.388);
+    border:none
+}
+button:hover{
+    background-color: rgba(81, 175, 178, 0.804);
+    color: white;
 
 }
