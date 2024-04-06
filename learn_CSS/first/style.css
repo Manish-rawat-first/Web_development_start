@@ -29,6 +29,7 @@
 }
 h1{
     font-size: 40px;
+    font-family: "Lato", sans-serif;
 }
 .Input{
     height: 20%;
@@ -36,14 +37,15 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:12px
+    gap:12px;
+    border:none;
 }
 input[type="email"],input[type="password"]{
     height: 80%;
     width: 70%;
     padding-left: 10px;
     border-radius: 5px;
-    border: 1px solid black;
+    font-family: "Lato", sans-serif;
 }
 .even{
     height: 20%;
@@ -70,9 +72,10 @@ a:hover,label:hover{
 button{
     height: 10%;
     width: 13%;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: rgba(81, 175, 178, 0.388);
-    border:none
+    border:none;
+    text-align: center;
 }
 button:hover{
     background-color: rgba(81, 175, 178, 0.804);
