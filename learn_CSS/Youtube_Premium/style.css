@@ -10,34 +10,61 @@
 }
 
 .navbar{
-    height: 7%;
-    width:100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
     color: white;
+    padding: 14px,20px;
 }
 .leftbar{
     display: flex;
 }
 .leftbar>img{
-    height:20px;
-    width:80px;
-    padding-top: 5px;
-    padding-left: 5px;
-    cursor: pointer;
+    padding: 5px;
 }
-.centerbar>input{
-    height: 50%;
-    width:60%;
+.leftbar>img:nth-child(2){
+    width:90px;
+}
+.centerbar{
+    display: flex;
+}
+.centerbar>input:nth-child(1){
+    margin-top:10px;
+    margin-bottom: 10px;
+    width:450px;
+    padding: 5px;
+    height: 30%;
+    border: 1px solid white;
+    border-radius: 40px solid;
+    background-color: black;
+    color: white;
+}
+.centerbar>img:nth-child(3){
+    margin:10px;
+    border-radius: 90px;
+    background-color: rgba(128, 128, 128, 0.566);
+    padding: 5px;
+}
+.centerbar>img:nth-child(2){
+    border:none;
+    width:25px;
+    margin-top:10px;
+    margin-bottom: 16px;
+    background-color: rgba(128, 128, 128, 0.566);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
 
+.centerbar>img:hover{
+    background-color: rgba(128, 128, 128, 0.975);
 }
-.centerbar>img{
-    height:10%;
-    width:10%;
-    cursor: pointer;
+.rightbar>img{
+    margin:10px;
+    border-radius: 90px;
+    background-color: rgba(128, 128, 128, 0.566);
+    padding: 5px;
 }
-.rightbar{
-    cursor: pointer;
+.rightbar>img:hover{
+    background-color: rgba(128, 128, 128, 0.975);
 }
